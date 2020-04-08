@@ -1,0 +1,5 @@
+package HW8;
+
+public enum Type {
+    FLOWER_PLANT, MOSSES, ALGAE, LIVERWORTS, FERNS, CYCAD, GINKGO, CONIFER
+}

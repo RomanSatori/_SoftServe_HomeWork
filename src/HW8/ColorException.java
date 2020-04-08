@@ -1,11 +1,7 @@
-package HW8;
+package HW8_part2;
 
-public class ColorException extends Exception {
-    public ColorException() {
-
-    }
-
-    public ColorException(String message) {
-        super(message);
+public class ColorException extends RuntimeException{
+    public ColorException(String color){
+        super(color);
     }
 }

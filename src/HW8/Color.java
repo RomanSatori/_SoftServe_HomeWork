@@ -1,5 +1,5 @@
-package HW8;
+package HW8_part2;
 
 public enum Color {
-    WHITE, GREEN, BLUE
+    GREEN, WHITE, BLUE, YELLOW, RED, BROWN
 }

@@ -1,4 +1,4 @@
-package HW8;
+package HW8_part2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

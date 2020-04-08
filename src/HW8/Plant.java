@@ -1,37 +1,39 @@
-package HW8;
+package HW8_part2;
 
 public class Plant {
     private int size;
     private Color color;
     private Type type;
 
-    public Plant(int size, String color, String type) throws ColorException, TypeException {
+    public Plant(int size, Color color, Type type) {
         this.size = size;
-        this.color = convertStringToColor(color);
-        this.type = convertStringToType(type);
+        this.color = color;
+        this.type = type;
     }
 
-    public Color convertStringToColor(String stringColor) throws ColorException {
-        Color color = null;
-        try {
-            color = Color.valueOf(stringColor.toUpperCase());
-        } catch (NullPointerException npe) {
-            System.err.println(npe.getMessage());
-        } catch (IllegalArgumentException iae) {
-            throw new ColorException(iae.getMessage());
-        }
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
+    }
+
+
+
+    public int getSize() {
+        return size;
+    }
+
+    public Color getColor() {
         return color;
     }
 
-    public Type convertStringToType(String stringType) throws TypeException {
-        Type type = null;
-        try {
-            type = Type.valueOf(stringType.toUpperCase());
-        } catch (NullPointerException npe) {
-            System.err.println(npe.getMessage());
-        } catch (IllegalArgumentException iae) {
-            throw new TypeException(iae.getMessage());
-        }
+    public Type getType() {
         return type;
     }
 
@@ -44,4 +46,3 @@ public class Plant {
                 '}';
     }
 }
-

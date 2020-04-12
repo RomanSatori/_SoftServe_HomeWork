@@ -23,6 +23,6 @@ public class PT2 implements Runnable {
              e.printStackTrace();
          }
      }
-    
+
     }
 }

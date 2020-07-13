@@ -1,12 +1,10 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="excludedRules">
-      <set>
-        <option value="java:S106" />
-        <option value="java:S1220" />
-        <option value="java:S1854" />
-        <option value="java:S3740" />
-      </set>
-    </option>
+    <rules>
+      <Rule active="false" key="java:S1220" />
+      <Rule active="false" key="java:S106" />
+      <Rule active="false" key="java:S3740" />
+      <Rule active="false" key="java:S1854" />
+    </rules>
   </component>
 </application>

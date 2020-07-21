@@ -4,6 +4,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="mytext" type="PLAIN_TEXT" />
+      <mapping pattern="part1" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
